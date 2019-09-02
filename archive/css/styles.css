@@ -1,0 +1,263 @@
+* {
+    box-sizing: border-box;
+}
+
+.centered {
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 50px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+#name {
+    /* font-variant: small-caps; */
+    font-size: 4em;
+    margin-top: 10px;
+    letter-spacing: 0.05em;
+}
+
+.icons a {
+    display: block;
+    margin-right: 15px;
+    position: fixed;
+    text-align: center;
+    top: 363px;
+    vertical-align: middle;
+    z-index: 1000;
+    height: 36px;
+    width: 36px;
+    text-decoration: none;
+}
+
+.fa {
+    padding-left: 15px;
+}
+.space {
+    margin-left: 300px;
+    text-align: right;
+}
+/*div.fa-big {*/
+/*    text-align: center;*/
+/*}*/
+/*div.indent {*/
+/*    margin-left: 30px;*/
+/*}*/
+
+a-m {
+    font-size: 16px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px white;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+b-h01 {
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 70px;
+    color:#22224f;
+    text-decoration: none;
+}
+
+b-h02 {
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 60px;
+    color:#22224f;
+    text-decoration: none
+}
+
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: white;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+    margin-left: 200px
+    float: center;
+    width: 100%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 0px;
+}
+
+/* Add a card effect for articles */
+.card {
+    padding: 50px;
+    background-color: white;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+img-left {
+    float: center;
+}
+img-right {
+    float: right
+
+}
+div.yum {
+    margin-left: 3em;
+    margin-right: 3em;
+/*    width:85%;*/
+    float:center;
+
+}
+
+a {
+    color: #BD9BEA;
+    font-family: 'arimo', monospace;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #bf9b30;
+}
+a:focus, a:active {
+    outline: none;
+}
+
+p {
+    font-weight: 400;
+    font-family: 'arimo', monospace;
+    font-size: 12px;
+    text-align: left;
+  }
+p-a {
+    font-family: 'arimo', monospace;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 12px 0px 12px 0px;
+    font-size: 70px;
+    text-align: center;
+    }
+
+h2 {
+  font-family: 'Arimo', monospace;
+  font-size: 15px;
+  color: black;
+}
+h5 {
+  font-size: 45px
+}
+
+li-b {
+    margin-bottom: 1.5em;
+    font-weight: 400;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 13px;
+    text-align: left}
+
+ul, ol {
+    display: block;
+    margin-bottom: 1.5em;
+}
+
+span-r {
+    background-color: #ffb0b0;
+    text-align: center;
+}
+span-b {
+    background-color: #caddfd;
+    text-align: center;
+}
+span-y {
+    background-color: #fffcbe;
+    text-align: center;
+}
+span-g {
+    background-color: #a8ffc0;
+    text-align: center;
+}
+span-p {
+    background-color: #d1bfff;
+    text-align: left;
+}
+h3 {
+    font-family: 'Abel', serif;
+    margin: 50 50 50px 60;
+}
+
+
+body {
+    margin:0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+    list-style-type: none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    background-color: #ffffff;
+}
+
+li a {
+    display: block;
+    color: #8cb3f4;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:  #ffffff;
+    color:#002b8e;
+}
