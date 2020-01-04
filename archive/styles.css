@@ -87,7 +87,7 @@ b-h02 {
 
 body {
     font-family: Arial;
-    padding: 70px;
+    padding: 20px;
     background: white;
 }
 
@@ -149,7 +149,7 @@ div.yum {
 
 a {
     color: #BD9BEA;
-    font-family: 'Mandali', sans-serif;
+    font-family: 'arimo', monospace;
     font-size: 16px;
     text-decoration: none;
 }
@@ -164,12 +164,12 @@ a:focus, a:active {
 
 p {
     font-weight: 400;
-    font-family: 'Mandali', sans-serif;
+    font-family: 'arimo', monospace;
     font-size: 12px;
     text-align: left;
-}
+  }
 p-a {
-    font-family: 'Mandali', sans-serif;
+    font-family: 'arimo', monospace;
     font-size: 12px;
     text-decoration: none;
 }
@@ -181,7 +181,7 @@ h1 {
     }
 
 h2 {
-  font-family: 'Mandali', sans-serif;
+  font-family: 'Arimo', monospace;
   font-size: 15px;
   color: black;
 }
